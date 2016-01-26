@@ -844,34 +844,34 @@ Screenshots Intro
 /* ==========================================================================
 Screenshots
 ========================================================================== */
-.screenshots ul {
+.team ul {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-.screenshots ul li {
+.team ul li {
     float: left;
     min-height: 100%;
     width: 25%;
     background-color: #000;
     list-style: none;
 }
-.screenshots figure {
+.team figure {
     position: relative;
     overflow: hidden;
 }
-.screenshots figure img {
+.team figure img {
     width: 100%;
     height: 100%;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
-.screenshots figure:hover img, .screenshots figure:focus img {
+.team figure:hover img, .team figure:focus img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-.screenshots figcaption {
+.team figcaption {
     position: absolute;
     top: 0;
     left: 0;
@@ -885,30 +885,30 @@ Screenshots
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
-.screenshots figcaption a {
+.team figcaption a {
     color: #fff
 }
-.screenshots figcaption a:hover, .screenshots figcaption a:focus {
+.team figcaption a:hover, .team figcaption a:focus {
     color: #73d0da
 }
-.screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
+.team figure:hover figcaption, .team figure:focus figcaption {
     opacity: 1
 }
 .visible {
     opacity: 1
 }
-.screenshots figure.cs-hover figcaption {
+.team figure.cs-hover figcaption {
     opacity: 1
 }
-.screenshots figcaption i {
+.team figcaption i {
     font-size: 35px
 }
-.screenshots figcaption p {
+.team figcaption p {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 400;
 }
-.screenshots figcaption .caption-content {
+.team figcaption .caption-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -921,7 +921,7 @@ Screenshots
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
-.screenshots figure:hover figcaption .caption-content, .screenshots figure:focus figcaption .caption-content {
+.team figure:hover figcaption .caption-content, .team figure:focus figcaption .caption-content {
     -webkit-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
